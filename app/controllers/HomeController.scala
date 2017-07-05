@@ -20,7 +20,8 @@ class HomeController @Inject() (val messagesApi: MessagesApi) extends Controller
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("Your new application is ready."))
+    Redirect(routes.ProductsController.list())
+    //Ok(views.html.index("Your new application is ready."))
   }
 
 }
