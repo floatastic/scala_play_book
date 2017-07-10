@@ -5,3 +5,6 @@ name = Nom
 description = Descriptif
 
 products.details = Produit: {0}
+
+validation.errors = Veuillez corriger les erreurs sur le formulaire
+validation.ean.duplicate = Un produit avec ce code EAN existe déjà

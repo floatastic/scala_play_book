@@ -5,3 +5,6 @@ name = Nombre
 description = Descripción
 
 products.details = Producto: {0}
+
+validation.errors = Corrija los errores en el formulario.
+validation.ean.duplicate = Ya existe un producto con este EAN
