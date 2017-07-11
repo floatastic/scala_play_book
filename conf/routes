@@ -14,6 +14,9 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 GET     /products                   controllers.ProductsController.list
 
+POST    /products                   controllers.ProductsController.save
+GET     /products/new               controllers.ProductsController.newProduct
+
 GET     /products/:ean              controllers.ProductsController.show(ean: Long)
 
 GET     /barcode/:ean               controllers.BarcodesController.barcode(ean: Long)
